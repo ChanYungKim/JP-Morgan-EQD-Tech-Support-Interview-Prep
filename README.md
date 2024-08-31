@@ -1,8 +1,15 @@
 # JP-Morgan-EQD-Tech-Support-Interview-Prep
 
+## Introduction
+- 
+- during my time at SocGen ...
+  - provided morning support and developed server connection testing tool for automation 
+  - setting up ELK stack, grafana and telegraf on the application servers
+- developed adapter that collects Update Order and Update Execution data from Elastic Search through Elastic Search Query and API to populate date to SocGen's internal web dashboard and provided support on capacity monitoring
+
 ## Technical
 
-### Monitoring Tools
+### Monitoring Tools 
 
 #### **ELK (Elastic Search, Logstash, Kibana)**
 
@@ -18,7 +25,7 @@
 
   - 단점
     - only uses Elastic Search as datasource
-    - does not support alerting (paid plan)
+    - does not support free alerting service (paid plan)
 
 #### **Grafana**
 
@@ -33,5 +40,8 @@
 - system metric data (RAM, CPU, etc ... ) 수집 server agent
 - 데이터 수집후 특정 destination 에 적재하는 역할
 
-#### **References**
+### FIX
 
+
+#### **References**
+[DVWY DevOps](https://youtube.com/playlist?list=PL3Re5Ri5rZmkDCTd8X8qRQtmRES1SVyNf&si=nRtZwEJOeI9GLR2O)
